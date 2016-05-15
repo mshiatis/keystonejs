@@ -1,0 +1,23 @@
+{
+  "name": "mshiatisblog",
+  "version": "1.0.1",
+  "private": true,
+  "engines": {
+    "node": "~4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/keystone-demo.git"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "csv": "^0.4.6",
+    "keystone": "https://github.com/keystonejs/keystone.git",
+    "lodash": "^3.10.1",
+    "restful-keystone": "^0.3.0"
+  },
+  "scripts": {
+    "start": "node keystone.js",
+    "deploy": "gcloud preview app deploy"
+  }
+}
