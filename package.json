@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/JedWatson/keystone-demo.git"
+    "url": "https://github.com/mshiatis/keystonejs.git"
   },
   "dependencies": {
     "async": "^1.5.0",
@@ -17,7 +17,6 @@
     "restful-keystone": "^0.3.0"
   },
   "scripts": {
-    "start": "node keystone.js",
-    "deploy": "gcloud preview app deploy"
+    "start": "node keystone.js"
   }
 }
