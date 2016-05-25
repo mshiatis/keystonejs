@@ -13,7 +13,7 @@ keystone.init({
 	'view engine': 'jade',
 
 	'auto update': true,
-	'mongo': process.env.MONGO_URI || process.env.MONGOLAB_URI || 'mongodb://admin:Starindigo87@ds011872.mlab.com:11872/personal_website',
+	'mongo': process.env.MONGO_URI || process.env.MONGOLAB_URI || 'mongodb://admin:@ds011872.mlab.com:11872/personal_website',
 	'cloudinary config': 'cloudinary://333779167276662:_8jbSi9FB3sWYrfimcl8VKh34rI@keystone-demo',
 
 	'session': true,
